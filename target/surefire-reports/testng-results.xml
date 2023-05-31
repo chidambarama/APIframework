@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="PetSuite" duration-ms="26721" started-at="2023-05-31T11:34:43 IST" finished-at="2023-05-31T11:35:10 IST">
+    <groups>
+    </groups>
+    <test name="PetTest" duration-ms="26721" started-at="2023-05-31T11:34:43 IST" finished-at="2023-05-31T11:35:10 IST">
+      <class name="api.test.DDTest">
+        <test-method status="PASS" signature="testPostUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.DDTest@1877ab81]" name="testPostUser" duration-ms="1709" started-at="2023-05-31T11:34:59 IST" data-provider="Data" finished-at="2023-05-31T11:35:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1010]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testuser1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[john]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Canedy]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[a@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[test@1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1234567891]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+        <test-method status="PASS" signature="testPostUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.DDTest@1877ab81]" name="testPostUser" duration-ms="1725" started-at="2023-05-31T11:35:01 IST" data-provider="Data" finished-at="2023-05-31T11:35:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1020]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testuser2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Kim]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Kom]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[b@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[test@2]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1234567891]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+        <test-method status="PASS" signature="testPostUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.DDTest@1877ab81]" name="testPostUser" duration-ms="1673" started-at="2023-05-31T11:35:03 IST" data-provider="Data" finished-at="2023-05-31T11:35:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1030]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testuser3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Smith]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Steve]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[c@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[test@3]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1234567891]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+        <test-method status="PASS" signature="testDeleteUserByName(java.lang.String)[pri:2, instance:api.test.DDTest@1877ab81]" name="testDeleteUserByName" duration-ms="2087" started-at="2023-05-31T11:35:04 IST" data-provider="UserNames" finished-at="2023-05-31T11:35:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserByName -->
+        <test-method status="PASS" signature="testDeleteUserByName(java.lang.String)[pri:2, instance:api.test.DDTest@1877ab81]" name="testDeleteUserByName" duration-ms="1873" started-at="2023-05-31T11:35:06 IST" data-provider="UserNames" finished-at="2023-05-31T11:35:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserByName -->
+        <test-method status="PASS" signature="testDeleteUserByName(java.lang.String)[pri:2, instance:api.test.DDTest@1877ab81]" name="testDeleteUserByName" duration-ms="1666" started-at="2023-05-31T11:35:08 IST" data-provider="UserNames" finished-at="2023-05-31T11:35:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserByName -->
+      </class> <!-- api.test.DDTest -->
+      <class name="api.test.UserTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:api.test.UserTests@76f2b07d]" name="setup" is-config="true" duration-ms="897" started-at="2023-05-31T11:34:43 IST" finished-at="2023-05-31T11:34:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testPostUser()[pri:1, instance:api.test.UserTests@76f2b07d]" name="testPostUser" duration-ms="5053" started-at="2023-05-31T11:34:44 IST" finished-at="2023-05-31T11:34:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+        <test-method status="PASS" signature="testGetUserByName()[pri:2, instance:api.test.UserTests@76f2b07d]" name="testGetUserByName" duration-ms="2328" started-at="2023-05-31T11:34:49 IST" finished-at="2023-05-31T11:34:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserByName -->
+        <test-method status="PASS" signature="testUpdateUserByName()[pri:3, instance:api.test.UserTests@76f2b07d]" name="testUpdateUserByName" duration-ms="4150" started-at="2023-05-31T11:34:52 IST" finished-at="2023-05-31T11:34:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUserByName -->
+        <test-method status="PASS" signature="testDeleteByUserName()[pri:4, instance:api.test.UserTests@76f2b07d]" name="testDeleteByUserName" duration-ms="1629" started-at="2023-05-31T11:34:56 IST" finished-at="2023-05-31T11:34:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteByUserName -->
+      </class> <!-- api.test.UserTests -->
+    </test> <!-- PetTest -->
+  </suite> <!-- PetSuite -->
+</testng-results>
